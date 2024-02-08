@@ -96,12 +96,19 @@ ol li {
   margin-top:8px;
 }
 
-#nutrition li:nth-child(odd) {
+ul li{
+  margin-top:8px;
+}
+
+#nutrition li{
   list-style-type: none;
-  margin-right: 20px;
   border-bottom: grey dotted 1px;
   float: left;
   width: 48%
+}
+
+#nutrition li:nth-child(odd) {
+  margin-right: 20px;
 }
 
 footer {
